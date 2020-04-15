@@ -1,0 +1,230 @@
+header{
+  background-image: url(/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.home-content wrapper{
+  opacity: 0.7;
+}
+
+/* ヘッダー */
+
+img{
+  max-width: 100%;
+}
+
+.logo{
+  width: 310px;
+  margin-top: ;
+}
+
+
+/* メニュー */
+
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+  
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color:rgba(15, 15, 16,0.8);
+  text-decoration:none;
+
+}
+
+.main-nav:hover{
+  color:#0db;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 4%;
+
+}
+
+/* HOME */
+.home-content{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p{
+  font-size: 1.125rem;
+  margin-top: 10px 0 42px;
+}
+
+/* 大きな背景画像 */
+
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+background-repeat: no-repeat;
+}
+
+#home{
+  background-image: url(../home.jpeg);
+  min-height: 100vh;
+}
+
+#home .page-title{
+  text-transform: none;
+}
+
+.page-title{
+  font-size: 5rem;
+  color: azure;
+  font-family:Impact, Haettenschweiler,
+  text-transform: uppercase;
+  font-weight: normal;
+  opacity: 0.7;
+
+}
+
+
+
+/* フッター */
+
+footer{
+  background: black;
+  text-align: center;
+  padding: 26px;
+  margin-top: 50px;
+}
+
+footer p{
+  color: blanchedalmond;
+  font-size: 0.875rem;
+}
+
+/* メイン部分 */
+
+article{
+  width: 74%;
+}
+
+aside{
+  width: 22%;
+}
+
+.news-contents{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+}
+
+/* 本文 */
+
+.post-title{
+  margin-top: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.post-title{
+  margin-top: 30px;
+margin-bottom: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.post-info{
+  border-bottom:1px gray dotted ;
+}
+
+.post-info2{
+  border-bottom:1px gray dotted ;
+}
+
+.post-info3{
+  border-bottom:1px gray dotted ;
+}
+
+
+.post-info4{
+  border-top:1px gray dotted ;
+}
+
+.post-info5{
+  border-bottom:1px gray dotted ;
+}
+
+
+
+
+.article-picture{
+  width: 500px;
+  margin-top: 30px;
+}
+
+aside {
+  margin-top:40px ;
+}
+
+.post-info3{
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+/* モバイル版 */
+
+@media(max-width:600px){
+.page-title{
+  font-size: 2.5rem;
+  
+}
+
+/* HEADER */
+.main-nav{
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.main-nav li{
+  margin:  0 20px;
+}
+/* HOME */
+.home-content{
+  margin-top: 20%;
+}
+.page-header{
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-contents{
+  flex-direction: column;
+}
+
+article,
+aside{
+  width: 100%;
+}
+
+
+/* ディスコグラフィー */
+
+.post-info4{
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+.article-picture{
+  width: 300px;
+  margin-top: 30px;
+}
